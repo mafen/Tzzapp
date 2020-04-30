@@ -13,10 +13,9 @@
         <activity
             android:name="com.usn.tzzapp.SettingsActivity"
             android:label="@string/title_activity_settings"
+            android:theme="@style/PreferenceTheme"
             android:parentActivityName="com.usn.tzzapp.MainActivity">
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.usn.tzzapp.MainActivity" />
+
         </activity>
         <activity
 
@@ -24,6 +23,7 @@
             android:label="@string/price"
             android:parentActivityName="com.usn.tzzapp.MainActivity" />
         <activity
+            android:theme="@style/equipmentTheme"
             android:name="com.usn.tzzapp.equiment.Equipment"
             android:label="@string/equipment"
             android:parentActivityName="com.usn.tzzapp.MainActivity" />
@@ -31,6 +31,10 @@
             android:name="com.usn.tzzapp.Formulas"
             android:label="@string/title_activity_forms"
             android:parentActivityName="com.usn.tzzapp.MainActivity" />
+        <activity
+            android:name="com.usn.tzzapp.Lamps"
+            android:label="@string/lamps"
+            android:parentActivityName="com.usn.tzzapp.Formulas" />
         <activity
             android:name="com.usn.tzzapp.MainActivity"
             android:label="@string/app_name"
